@@ -1,0 +1,26 @@
+.navbar {
+  grid-template-columns: auto auto auto auto;
+  display: grid;
+  height: 15vh;
+  align-items: end;
+}
+.navbar .btn {
+  justify-content: center;
+  display: flex;
+  background-color: transparent;
+  align-items: center;
+  height: 75%;
+  transition: 1s;
+  cursor: pointer;
+  justify-content: center;
+  gap: 8px;
+}
+.navbar .btn .nav-icon {
+  font-size: 20px;
+  color: red;
+}
+.navbar .btn:hover {
+  height: 100%;
+  background-color: red;
+  color: white;
+}

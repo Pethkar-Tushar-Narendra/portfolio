@@ -1,0 +1,191 @@
+.about-container {
+  position: relative;
+  color: white;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 40px;
+}
+.about-container .title {
+  position: relative;
+  color: white;
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 80px;
+  margin-top: 50px;
+}
+.about-container .title .title2 {
+  color: red;
+}
+.about-container .about-frame {
+  position: relative;
+  height: 230px;
+  aspect-ratio: 1;
+  background-image: url('../../../public/Passport_Photograph.jpg');
+  background-color: rgb(237, 233, 227);
+  box-shadow: inset 20px 20px 20px rgba(0, 0, 0, 0.05),
+    25px 35px 20px rgba(0, 0, 0, 0.05), 25px 30px 30px rgba(0, 0, 0, 0.05),
+    inset -20px -20px 25px rgba(255, 255, 255, 0.9);
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  background-size: contain;
+}
+.about-container .about-info {
+  width: 100vw;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0 150px;
+  cursor: default;
+}
+.about-container .about-info .personalInfo {
+  padding: 9px 0;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.about-container .about-info .about-info2 {
+  position: relative;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: auto auto;
+}
+
+.about-container .about-info .about-info2 .col1 {
+  width: 660px;
+  position: relative;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  height: 200px;
+  gap: 10px;
+}
+
+.about-container .about-info .about-info2 .col1 .key {
+  color: gray;
+  cursor: default;
+}
+
+.about-container .about-info .about-info2 .col1 .value {
+  font-weight: bold;
+}
+.about-container .about-info .about-info2 .col2 {
+  width: 629px;
+  position: relative;
+  justify-content: center;
+  display: flex;
+  height: 200px;
+  padding: 10px;
+  gap: 10px;
+}
+
+.about-container .about-info .about-info2 .col2 .box {
+  width: 50%;
+  background-color: grey;
+  border-radius: 18px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  padding: 0 23px;
+}
+.about-container .about-info .about-info2 .col2 .box .box-1 {
+  font-size: 60px;
+  color: red;
+  font-weight: bold;
+}
+
+.about-container .about-info .about-info2 .col2 .box .box-2 {
+  font-weight: bold;
+  font-size: 25px;
+}
+.about-container .about-info .downloadCV {
+  font-weight: bold;
+  position: relative;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: red;
+  width: fit-content;
+  padding: 5px 13px;
+  border-radius: 20px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.about-container .about-info .downloadCV .downloadCV-2 {
+  font-size: 26px;
+}
+
+.about-container .about-info .downloadCV:hover {
+  gap: 15px;
+}
+.about-container .skills {
+  padding-top: 20px;
+  position: relative;
+  color: white;
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 80px;
+  margin-top: 50px;
+  cursor: default;
+}
+.about-container .skills .title2 {
+  color: red;
+}
+
+.about-container .skills-grid {
+  min-height: 500px;
+  position: relative;
+  gap: 30px;
+  width: 100%;
+  padding: 0 100px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+}
+.about-container .skills-grid .grid {
+  border: 2px solid green;
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  text-align: center;
+}
+.about-container .skills-grid .grid:hover {
+  background-color: white;
+  color: black;
+}
+.about-container .skills-grid .grid img {
+  height: 75%;
+  aspect-ratio: 1;
+}
+.about-container .skills-grid .grid .name {
+  height: 25%;
+  padding-top: 10px;
+}
+.about-container .education {
+  position: relative;
+  color: white;
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 80px;
+  margin-top: 50px;
+}
+.about-container .education .title2 {
+  color: red;
+}
