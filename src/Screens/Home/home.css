@@ -1,22 +1,32 @@
-.frame-container {
+.home-container {
   position: relative;
-  width: 45%;
+  min-height: 100vh;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: row;
+  flex-basis: 100%;
+  gap: 20px;
+  padding: 20px;
 }
+.home-container .frame-container {
+  position: relative;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1;
+}
+
 .frame-container .frame {
   position: relative;
-  height: 85%;
+  height: 65%;
   aspect-ratio: 1;
   background-image: url('../../../public/Passport_Photograph.jpg');
   background-color: rgb(237, 233, 227);
   box-shadow: inset 20px 20px 20px rgba(0, 0, 0, 0.05),
     25px 35px 20px rgba(0, 0, 0, 0.05), 25px 30px 30px rgba(0, 0, 0, 0.05),
     inset -20px -20px 25px rgba(255, 255, 255, 0.9);
-  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  border-radius: 30% 70% 57% 43% / 35% 33% 67% 65%;
   background-size: contain;
-
   animation-name: animation;
   animation-timing-function: ease-in-out;
   animation-duration: 3s;
@@ -26,85 +36,81 @@
 }
 @keyframes animation {
   0% {
-    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
-    translate: 0;
+    border-radius: 30% 70% 57% 43% / 35% 33% 67% 65%;
+    translate: -15px;
   }
   100% {
-    border-radius: 53% 47% 70% 30% / 40% 58% 42% 60%;
-    translate: 50px;
+    border-radius: 69% 31% 57% 43% / 34% 28% 72% 66%;
+    translate: 15px;
   }
 }
-.info-container {
+
+.home-container .info-container {
   position: relative;
-  width: 55%;
+  width: 50%;
+  color: aliceblue;
   display: flex;
-  justify-content: center;
-  color: white;
   flex-direction: column;
-  padding: 70px;
-  gap: 25px;
-  cursor: default;
+  gap: 10px;
+  justify-content: center;
+  padding-left: 20px;
 }
 
-.info-container .first {
-  width: 100%;
-  position: relative;
-  font-weight: bold;
-  font-size: 35px;
-  text-align: left;
-  flex-direction: row;
+.home-container .info-container .first {
   display: flex;
-  gap: 20px;
   align-items: center;
+  gap: 10px;
 }
 
-.info-container .first .home-icon {
-  color: red;
+.home-container .info-container .first .home-icon {
+  color: var(--highlighter);
   font-size: 60px;
 }
-.info-container .second {
+.info-container p {
   width: 100%;
-  position: relative;
-  font-weight: bold;
-  font-size: 35px;
-  text-align: left;
-}
-.info-container .third {
-  width: 100%;
-  position: relative;
-  font-weight: bold;
-  font-size: 30px;
-  text-align: left;
-  color: red;
 }
 
-.info-container .fourth {
-  width: 80%;
-  position: relative;
-  font-size: 16px;
-  text-align: left;
-  color: rgb(228, 222, 222);
-}
-.info-container .home-button {
-  gap: 10px;
+.home-container .info-container .home-button {
   display: flex;
   align-items: center;
-  font-size: 20px;
-  background-color: red;
-  width: fit-content;
-  border-radius: 30px;
-  font-weight: bold;
-  transition: 1s;
+  gap: 15px;
+  padding: 11px;
+  background-color: var(--highlighter);
+  border-radius: 33px;
+  width: max-content;
+  transition: 0.5s;
   cursor: pointer;
+  margin-top: 10px;
 }
-
-.info-container .home-button .home-about {
-  padding: 10px;
-}
-.info-container .home-button .home-icon2 {
-  font-size: 45px;
+.home-container .info-container .home-button .home-icon2 {
+  font-size: 30px;
 }
 
 .info-container .home-button:hover {
   gap: 35px;
+}
+@media (max-width: 800px) {
+  .home-container {
+    flex-direction: column;
+    gap: 0;
+  }
+  .home-container .frame-container {
+    width: 100%;
+    aspect-ratio: 1;
+    height: 40vh;
+  }
+  .home-container .info-container {
+    width: 100%;
+    height: 50vh;
+    padding: 0;
+  }
+  .home-container .info-container {
+    align-items: center;
+  }
+  .home-container .info-container .center {
+    padding-left: 30px;
+  }
+  p {
+    text-align: center;
+  }
 }

@@ -7,29 +7,27 @@ import { useNavigate } from 'react-router-dom';
 const Home = () => {
   const navigate = useNavigate('/about');
   return (
-    <>
+    <div className="home-container">
       <div className="frame-container">
         <div className="frame"></div>
       </div>
       <div className="info-container">
         <div className="first">
           <FaInfinity className="home-icon" />
-          <div>Hub</div>
+          <h1>Hub</h1>
         </div>
-        <div className="second">Hi, I Am Tushar Pethkar</div>
-        <div className="third">Full-Stack Developer</div>
-        <div className="fourth">
+        <h1 className="center">Hi, I Am Tushar Pethkar</h1>
+        <h2>Full-Stack Developer</h2>
+        <p>
           I'm A Full Stack Web Developer From Daman, India. I Hvae A Passion For
-          Design And Love For Web Developement.
-        </div>
+        </p>
+        <p> Design And Love For Web Developement.</p>
         <div className="home-button">
-          <div className="home-about" onClick={() => navigate('/about')}>
-            About Me
-          </div>
+          <h2 onClick={() => navigate('/about')}>About Me</h2>
           <IoMdContact className="home-icon2" />
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
