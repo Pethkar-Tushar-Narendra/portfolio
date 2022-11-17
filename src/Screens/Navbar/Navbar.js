@@ -12,22 +12,22 @@ const Navbar = () => {
   return (
     <div className="nav-container">
       <div className="navbar">
-        <div className="btn" onClick={() => navigate('/')}>
+        <a className="btn" onClick={() => navigate('/')}>
           <ImHome className="nav-icon" />
           <h3>Home</h3>
-        </div>
-        <div className="btn" onClick={() => navigate('/about')}>
+        </a>
+        <a className="btn" onClick={() => navigate('/about')}>
           <BsFillPersonFill className="nav-icon" />
           <h3>About</h3>
-        </div>
-        <div className="btn" onClick={() => navigate('/portfolio')}>
+        </a>
+        <a className="btn" onClick={() => navigate('/portfolio')}>
           <BsFillBriefcaseFill className="nav-icon" />
           <h3>Portfolio</h3>
-        </div>
-        <div className="btn" onClick={() => navigate('/contactMe')}>
+        </a>
+        <a className="btn" onClick={() => navigate('/contactMe')}>
           <RiContactsBookFill className="nav-icon" />
           <h3>Contact</h3>
-        </div>
+        </a>
       </div>
     </div>
   );

@@ -171,6 +171,7 @@
   background: var(--text-color);
 }
 .about-container .about-education .edu-card .content {
+  font-size: 30px;
   color: var(--text-color);
   gap: 10px;
   width: 80%;
@@ -180,6 +181,7 @@
   align-items: center;
 }
 .about-container .about-education .edu-card .content .duration {
+  font-size: 30px;
   background-color: var(--text-key);
   width: max-content;
   padding: 0 15px;

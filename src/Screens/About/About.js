@@ -15,7 +15,35 @@ import { SiSpring } from 'react-icons/si';
 import { FaPython } from 'react-icons/fa';
 import { SiJquery } from 'react-icons/si';
 import { FaGraduationCap } from 'react-icons/fa';
+import { useNavigate } from 'react-router-dom';
+import { RiContactsBookFill } from 'react-icons/ri';
 const About = () => {
+  const edu = [
+    {
+      time: '2013-2014',
+      class: 'Class X',
+      name: 'Maratha High School, Nashik',
+      marks: 'Percentage: 85%',
+    },
+    {
+      time: '2015-2016',
+      class: 'Class XII',
+      name: 'K.T.H.M. Collage Gangapur Road, Nashik',
+      marks: 'Percentage: 59%',
+    },
+    {
+      time: '2016-2020',
+      class: 'BE Production Engineering',
+      name: 'K.K.Wagh Institute Of Engineering And Research, Nashik',
+      marks: 'CGPA: 6.62',
+    },
+    {
+      time: '2022',
+      class: 'PG-DAC',
+      name: 'CDAC-Bangalore',
+      marks: 'Percentage: 66%',
+    },
+  ];
   const skills = [
     {
       img: <ImHtmlFive className="icon" style={{ color: 'red' }} />,
@@ -77,6 +105,7 @@ const About = () => {
       id: { color: 'red' },
     },
   ];
+  const navigate = useNavigate();
   return (
     <div className="about-container">
       <div className="title">
@@ -128,33 +157,26 @@ const About = () => {
         <h1 className="title1">EDUCATION</h1>
       </div>
       <div className="about-education">
-        <div className="edu-card">
-          <div className="icon">
-            <FaGraduationCap className="edu-icon" />
-          </div>
-          <div className="content">
-            <div className="duratiom">
-              <p>2013-2014</p>
+        {edu.map((ele, i) => (
+          <div className="edu-card" key={i}>
+            <div className="icon">
+              <FaGraduationCap className="edu-icon" />
             </div>
-            <h2>Class X</h2>
-            <p>Maratha High School, Nashik 422003</p>
-            <p>Percentage: 85%</p>
-          </div>
-        </div>
-        <div className="edu-card">
-          <div className="icon">
-            <FaGraduationCap className="edu-icon" />
-          </div>
-          <div className="content">
-            <div className="duration">
-              <p>2013-2014</p>
+            <div className="content">
+              <div className="duration">
+                <p>{ele.time}</p>
+              </div>
+              <h2>{ele.class}</h2>
+              <p>{ele.name}</p>
+              <p>{ele.marks}</p>
             </div>
-            <h2>Class X</h2>
-            <p>Maratha High School, Nashik 422003</p>
-            <p>Percentage: 85%</p>
           </div>
-        </div>
+        ))}
       </div>
+      <a className="downloadCV" onClick={() => navigate('/contactMe')}>
+        <h2>Contact Me</h2>
+        <RiContactsBookFill className="downloadCV-2" />
+      </a>
     </div>
   );
 };
