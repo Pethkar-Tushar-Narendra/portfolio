@@ -33,7 +33,7 @@
 }
 
 .project-container .card-container .card {
-  /* border: 2px solid green; */
+  border: 2px solid green;
   aspect-ratio: 1;
 }
 @media (max-width: 850px) {
