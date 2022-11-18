@@ -19,9 +19,10 @@ const Home = () => {
         <h1 className="center">Hi, I Am Tushar Pethkar</h1>
         <h2>Full-Stack Developer</h2>
         <p>
-          I'm A Full Stack Web Developer From Daman, India. I Hvae A Passion For
+          I'm A Full Stack Web Developer From Maharashtra, India. I Have A
+          Passion For
         </p>
-        <p> Design And Love For Web Developement.</p>
+        <p> Computers And Love For Web Developement.</p>
         <a className="home-button" onClick={() => navigate('/about')}>
           <h2>About Me</h2>
           <IoMdContact className="home-icon2" />

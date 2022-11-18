@@ -7,6 +7,12 @@
   cursor: default;
   user-select: none;
 }
+* {
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
 main {
   min-height: 80vh;
   font-size: 62.5%;

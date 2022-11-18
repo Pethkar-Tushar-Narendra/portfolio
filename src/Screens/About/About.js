@@ -13,7 +13,7 @@ import { SiMysql } from 'react-icons/si';
 import { FaJava } from 'react-icons/fa';
 import { SiSpring } from 'react-icons/si';
 import { FaPython } from 'react-icons/fa';
-import { SiJquery } from 'react-icons/si';
+import { GiRobotGrab } from 'react-icons/gi';
 import { FaGraduationCap } from 'react-icons/fa';
 import { useNavigate } from 'react-router-dom';
 import { RiContactsBookFill } from 'react-icons/ri';
@@ -46,61 +46,60 @@ const About = () => {
   ];
   const skills = [
     {
-      img: <ImHtmlFive className="icon" style={{ color: 'red' }} />,
+      img: <ImHtmlFive className="icon" style={{ color: '#990000' }} />,
       name: 'HTML',
       id: { color: 'red' },
     },
     {
-      img: <IoLogoCss3 className="icon" style={{ color: 'blue' }} />,
+      img: <IoLogoCss3 className="icon" style={{ color: '#2965f1' }} />,
       name: 'CSS',
       id: { color: 'red' },
     },
     {
-      img: <TbBrandJavascript className="icon" style={{ color: 'yellow' }} />,
+      img: <TbBrandJavascript className="icon" style={{ color: '#f0db4f' }} />,
       name: 'JAVASCRIPT',
     },
     {
-      img: <FaReact className="icon" style={{ color: 'blue' }} />,
+      img: <FaReact className="icon" style={{ color: '#61dbfb' }} />,
       name: 'REACT.JS',
       id: { color: 'red' },
     },
     {
-      img: <BsBootstrapFill className="icon" style={{ color: 'brown' }} />,
+      img: <BsBootstrapFill className="icon" style={{ color: '#563d7c' }} />,
       name: 'BOOTSTRAP',
       id: { color: 'red' },
     },
     {
-      img: <SiJquery className="icon" style={{ color: 'blue' }} />,
-      name: 'JQUERY',
-      id: { color: 'red' },
+      img: <GiRobotGrab className="icon" style={{ color: 'orange' }} />,
+      name: 'ROBOTICS',
     },
     {
-      img: <FaNode className="icon" style={{ color: 'green' }} />,
+      img: <FaNode className="icon" style={{ color: '#215732' }} />,
       name: 'NODE.JS',
       id: { color: 'red' },
     },
     {
-      img: <SiMongodb className="icon" style={{ color: 'green' }} />,
+      img: <SiMongodb className="icon" style={{ color: '#589636' }} />,
       name: 'MONGODB',
       id: { color: 'red' },
     },
     {
-      img: <SiMysql className="icon" style={{ color: 'blue' }} />,
+      img: <SiMysql className="icon" style={{ color: '#00758f' }} />,
       name: 'MY-SQL',
       id: { color: 'red' },
     },
     {
-      img: <FaJava className="icon" style={{ color: 'blue' }} />,
+      img: <FaJava className="icon" style={{ color: '#1FBED6' }} />,
       name: 'JAVA',
       id: { color: 'red' },
     },
     {
-      img: <SiSpring className="icon" style={{ color: 'green' }} />,
+      img: <SiSpring className="icon" style={{ color: '#00FF7F' }} />,
       name: 'SPRINGBOOT',
       id: { color: 'red' },
     },
     {
-      img: <FaPython className="icon" style={{ color: 'blue' }} />,
+      img: <FaPython className="icon" style={{ color: '#8B7D6B' }} />,
       name: 'PYTHON',
       id: { color: 'red' },
     },
