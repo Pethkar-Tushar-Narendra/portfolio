@@ -7,6 +7,7 @@ import { FaHackerrank } from 'react-icons/fa';
 import { ImGithub } from 'react-icons/im';
 import { BsLinkedin } from 'react-icons/bs';
 import { BsTwitter } from 'react-icons/bs';
+import { Form } from 'react-bootstrap';
 const ContactMe = () => {
   return (
     <div className="contact-container">
@@ -55,8 +56,59 @@ const ContactMe = () => {
           </div>
         </div>
       </div>
-      <h1>Send Email To Me</h1>
-      <div className="form"></div>
+      <h1 className="form-title">
+        Send <span>Message</span> To <span>Me</span>
+      </h1>
+      <div className="form-container">
+        <form>
+          <label>
+            <h2>Enter Your Name</h2>
+          </label>
+          <input
+            type="text"
+            name="name"
+            placeholder="Enter Your Name"
+            required
+          ></input>
+          <label>
+            <h2>Enter Your Mobile Number</h2>
+          </label>
+          <input
+            type="Number"
+            name="name"
+            placeholder="Enter Your Mobile Number"
+            required
+          ></input>
+          <label>
+            <h2>Enter Your Email</h2>
+          </label>
+          <input
+            type="text"
+            name="name"
+            placeholder="Enter Your Email Add."
+            required
+          ></input>
+          <label>
+            <h2>Enter the Subject</h2>
+          </label>
+          <input
+            type="text"
+            name="name"
+            placeholder="Enter Your Subject"
+          ></input>
+          <label>
+            <h2>Enter the Message</h2>
+          </label>
+          <textarea
+            name="comment"
+            placeholder="Enter Your Message"
+            required
+          ></textarea>
+          <button type="submit">
+            <h2>Send Message</h2>
+          </button>
+        </form>
+      </div>
     </div>
   );
 };

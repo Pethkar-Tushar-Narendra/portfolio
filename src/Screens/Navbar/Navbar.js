@@ -22,7 +22,7 @@ const Navbar = () => {
         </a>
         <a className="btn" onClick={() => navigate('/portfolio')}>
           <BsFillBriefcaseFill className="nav-icon" />
-          <h3>Portfolio</h3>
+          <h3>Projects</h3>
         </a>
         <a className="btn" onClick={() => navigate('/contactMe')}>
           <RiContactsBookFill className="nav-icon" />

@@ -186,6 +186,7 @@
   width: max-content;
   padding: 0 15px;
   border-radius: 22px;
+  text-align: center;
 }
 @media (max-width: 850px) {
   .about-container .title {

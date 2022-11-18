@@ -33,7 +33,7 @@ const About = () => {
     },
     {
       time: '2016-2020',
-      class: 'BE Production Engineering',
+      class: 'Graduation Production Engineering',
       name: 'K.K.Wagh Institute Of Engineering And Research, Nashik',
       marks: 'CGPA: 6.62',
     },
