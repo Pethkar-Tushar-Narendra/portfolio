@@ -40,7 +40,7 @@
   width: 30%;
   height: 250px;
   background-color: transparent;
-  transition: 0.8s;
+  transition: 0.5s;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -78,10 +78,10 @@
 }
 @keyframes animate {
   0% {
-    transform: translate(-50%, -50%) rotate(0deg);
+    transform: translate(-50%, -50%) rotate(90deg);
   }
   100% {
-    transform: translate(-50%, -50%) rotate(360deg);
+    transform: translate(-50%, -50%) rotate(450deg);
   }
 }
 
@@ -125,10 +125,10 @@
 }
 @keyframes animate1 {
   0% {
-    transform: translate(-50%, -50%) rotate(540deg);
+    transform: translate(-50%, -50%) rotate(630deg);
   }
   100% {
-    transform: translate(-50%, -50%) rotate(180deg);
+    transform: translate(-50%, -50%) rotate(270deg);
   }
 }
 
@@ -219,7 +219,7 @@
   background-color: var(--highlighter);
   border-radius: 33px;
   width: max-content;
-  transition: 0.5s;
+  transition: 1s;
   cursor: pointer;
   margin-top: 10px;
 }
@@ -234,18 +234,18 @@
 .project-container .card-container .card .content .discription,
 .project-container .card-container .card .content .button,
 .project-container .card-container .card .content .tech,
-.project-container .card-container .card .content .tech-container .grid {
+.project-container .card-container .card .content .tech-container {
   opacity: 0;
   visibility: hidden;
   top: -220px;
-  transition: 0.7s;
+  transition: 0.8s;
   position: absolute;
 }
 .project-container .card-container .card:hover .content .tech-title,
 .project-container .card-container .card:hover .content .button,
 .project-container .card-container .card:hover .content .discription,
 .project-container .card-container .card:hover .content .tech,
-.project-container .card-container .card:hover .content .tech-container .grid {
+.project-container .card-container .card:hover .content .tech-container {
   opacity: 1;
   visibility: visible;
   position: relative;
