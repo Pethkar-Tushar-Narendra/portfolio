@@ -2,109 +2,15 @@ import React from 'react';
 import './about.css';
 import CV from '../../CV/Tushar_pethkar_CV.pdf';
 import { MdDownloadForOffline } from 'react-icons/md';
-import { ImHtmlFive } from 'react-icons/im';
-import { TbBrandJavascript } from 'react-icons/tb';
-import { IoLogoCss3 } from 'react-icons/io';
-import { FaReact } from 'react-icons/fa';
-import { BsBootstrapFill } from 'react-icons/bs';
-import { FaNode } from 'react-icons/fa';
-import { SiMongodb } from 'react-icons/si';
-import { SiMysql } from 'react-icons/si';
-import { FaJava } from 'react-icons/fa';
-import { SiSpring } from 'react-icons/si';
-import { FaPython } from 'react-icons/fa';
-import { GiRobotGrab } from 'react-icons/gi';
 import { FaGraduationCap } from 'react-icons/fa';
 import { useNavigate } from 'react-router-dom';
 import { RiContactsBookFill } from 'react-icons/ri';
 import { Helmet } from 'react-helmet-async';
+import info from '../../data';
 const About = () => {
-  const edu = [
-    {
-      time: '2013-2014',
-      class: 'Class X',
-      name: 'Maratha High School, Nashik',
-      marks: 'Percentage: 85%',
-    },
-    {
-      time: '2015-2016',
-      class: 'Class XII',
-      name: 'K.T.H.M. Collage Gangapur Road, Nashik',
-      marks: 'Percentage: 59%',
-    },
-    {
-      time: '2016-2020',
-      class: 'Graduation Production Engineering',
-      name: 'K.K.Wagh Institute Of Engineering And Research, Nashik',
-      marks: 'CGPA: 6.62',
-    },
-    {
-      time: '2022',
-      class: 'PG-DAC',
-      name: 'CDAC-Bangalore',
-      marks: 'Percentage: 66%',
-    },
-  ];
-  const skills = [
-    {
-      img: <ImHtmlFive className="icon" style={{ color: '#990000' }} />,
-      name: 'HTML',
-      id: { color: 'red' },
-    },
-    {
-      img: <IoLogoCss3 className="icon" style={{ color: '#2965f1' }} />,
-      name: 'CSS',
-      id: { color: 'red' },
-    },
-    {
-      img: <TbBrandJavascript className="icon" style={{ color: '#f0db4f' }} />,
-      name: 'JAVASCRIPT',
-    },
-    {
-      img: <FaReact className="icon" style={{ color: '#61dbfb' }} />,
-      name: 'REACT.JS',
-      id: { color: 'red' },
-    },
-    {
-      img: <BsBootstrapFill className="icon" style={{ color: '#563d7c' }} />,
-      name: 'BOOTSTRAP',
-      id: { color: 'red' },
-    },
-    {
-      img: <GiRobotGrab className="icon" style={{ color: 'orange' }} />,
-      name: 'ROBOTICS',
-    },
-    {
-      img: <FaNode className="icon" style={{ color: '#215732' }} />,
-      name: 'NODE.JS',
-      id: { color: 'red' },
-    },
-    {
-      img: <SiMongodb className="icon" style={{ color: '#589636' }} />,
-      name: 'MONGODB',
-      id: { color: 'red' },
-    },
-    {
-      img: <SiMysql className="icon" style={{ color: '#00758f' }} />,
-      name: 'MY-SQL',
-      id: { color: 'red' },
-    },
-    {
-      img: <FaJava className="icon" style={{ color: '#1FBED6' }} />,
-      name: 'JAVA',
-      id: { color: 'red' },
-    },
-    {
-      img: <SiSpring className="icon" style={{ color: '#00FF7F' }} />,
-      name: 'SPRINGBOOT',
-      id: { color: 'red' },
-    },
-    {
-      img: <FaPython className="icon" style={{ color: '#8B7D6B' }} />,
-      name: 'PYTHON',
-      id: { color: 'red' },
-    },
-  ];
+  const { edu } = info;
+  const { skills } = info;
+  const { selfInfo } = info;
   const navigate = useNavigate();
   return (
     <>
@@ -121,21 +27,21 @@ const About = () => {
           <div className="about-info">
             <div className="col1">
               <p className="key">Name</p>
-              <p className="value">Tushar Pethkar</p>
-              <p className="key">Age</p>
-              <p className="value">23</p>
+              <p className="value">{selfInfo.name}</p>
+              <p className="key">DOB</p>
+              <p className="value">{selfInfo.birthDate}</p>
               <p className="key">Email</p>
-              <p className="value">pethkartusharnarendra@gmail.com</p>
+              <p className="value">{selfInfo.email}</p>
               <p className="key">Address</p>
-              <p className="value">Nashik, Maharashtra 422003</p>
+              <p className="value">{selfInfo.location}</p>
             </div>
             <div className="col2">
               <p className="key">Skill</p>
-              <p className="value">Full-Stack Developer</p>
+              <p className="value">{selfInfo.DescribeYourself}</p>
               <p className="key">Experience</p>
-              <p className="value">6 months</p>
+              <p className="value">{selfInfo.experience}</p>
               <p className="key">Language</p>
-              <p className="value">English, Hindi, Marathi</p>
+              <p className="value">{selfInfo.language}</p>
             </div>
           </div>
         </div>

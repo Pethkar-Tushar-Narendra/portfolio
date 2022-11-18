@@ -1,75 +1,10 @@
 import React from 'react';
 import './portfoilio.css';
 import { ImEarth } from 'react-icons/im';
-import ProjectImg1 from '../../ProjectImg/Industrial robot image.png';
-import ProjectImg2 from '../../ProjectImg/Mern Webapplication.png';
-import ProjectImg3 from '../../ProjectImg/Resume Website.png';
-import ProjectImg4 from '../../ProjectImg/robotic arm prototype.png';
-import ProjectImg5 from '../../ProjectImg/portfolio screenshot.jpg';
-import ProjectImg6 from '../../ProjectImg/portfolio template.jpg';
 import { Helmet } from 'react-helmet-async';
+import info from '../../data';
 const Portfolio = () => {
-  const projects = [
-    {
-      image: ProjectImg2,
-      title: 'E-Com Web Application',
-      time: 'Sept 2022',
-      technologies: [
-        'React.js',
-        'Node.JS',
-        'Express',
-        'MongoDB',
-        'Web Tokens',
-        'Bootstrap',
-      ],
-      link: 'https://e-commerce-shopping-app-tushar.herokuapp.com/',
-    },
-    {
-      image: ProjectImg3,
-      title: 'Resume CV WebPage',
-      time: 'Oct 2022',
-      technologies: ['React.js', 'JavaScript', 'HTML', 'CSS'],
-      link: 'https://tushar-pethkar-resume.netlify.app/',
-    },
-    {
-      image: ProjectImg6,
-      title: 'Portfolio Template',
-      time: 'Nov 2022',
-      technologies: ['React.js', 'JavaScript', 'HTML', 'CSS'],
-      link: 'https://tushar-pethkar-portfolio1.netlify.app/',
-    },
-    {
-      image: ProjectImg5,
-      title: 'Portfolio Web Application',
-      time: 'Nov 2022',
-      technologies: ['React.js', 'JavaScript', 'HTML', 'CSS'],
-      link: '/',
-    },
-    {
-      image: ProjectImg1,
-      title: 'Optimization Process',
-      time: 'Feb 2020',
-      technologies: [
-        'Robotics',
-        'Inverse Kinematics',
-        'Arduino',
-        'Servo Motors',
-      ],
-      link: 'https://drive.google.com/drive/folders/147sV7cpY4e-Luu_5zO64RNkPW8pPIDkw',
-    },
-    {
-      image: ProjectImg4,
-      title: '6 Axes Robotic Arm',
-      time: 'April 2020',
-      technologies: [
-        'Robotics',
-        'Inverse Kinematics',
-        'Arduino',
-        'Servo Motors',
-      ],
-      link: 'https://drive.google.com/drive/folders/19qoPJiELS_Z6VXdjwcw0Q6ACl2UFiOiv',
-    },
-  ];
+  const { projects } = info;
   return (
     <>
       <Helmet>

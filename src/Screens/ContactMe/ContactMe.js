@@ -8,7 +8,10 @@ import { ImGithub } from 'react-icons/im';
 import { BsLinkedin } from 'react-icons/bs';
 import { BsTwitter } from 'react-icons/bs';
 import { Helmet } from 'react-helmet-async';
+import info from '../../data';
 const ContactMe = () => {
+  const { selfInfo } = info;
+  const contactInfo = selfInfo;
   return (
     <>
       <Helmet>
@@ -29,7 +32,7 @@ const ContactMe = () => {
                 </div>
                 <div className="info">
                   <h2 className="key">Contact Me</h2>
-                  <h2 className="value">+91 8446520712</h2>
+                  <h2 className="value">{contactInfo.mobileNo}</h2>
                 </div>
               </div>
               <div className="row">
@@ -38,7 +41,7 @@ const ContactMe = () => {
                 </div>
                 <div className="info">
                   <h2 className="key">Current Location</h2>
-                  <h2 className="value">Nashik, Maharashtra</h2>
+                  <h2 className="value">{contactInfo.location}</h2>
                 </div>
               </div>
 
@@ -48,7 +51,7 @@ const ContactMe = () => {
                 </div>
                 <div className="info">
                   <h2 className="key">Email</h2>
-                  <h2 className="value">pethkartusharnarendra@gmail.com</h2>
+                  <h2 className="value">{contactInfo.email}</h2>
                 </div>
               </div>
             </div>
