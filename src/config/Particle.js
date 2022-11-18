@@ -76,7 +76,7 @@ const Particle = () => {
               duration: 1,
               easing: 'ease-out-quad',
               factor: 1,
-              maxSpeed: 10,
+              maxSpeed: 2,
               speed: 1.5,
             },
             bounce: {

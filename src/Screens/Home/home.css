@@ -44,6 +44,10 @@
   }
 }
 
+.frame-container .frame:hover {
+  cursor: pointer;
+  animation-play-state: paused;
+}
 .home-container .info-container {
   position: relative;
   width: 50%;
@@ -111,5 +115,14 @@
   }
   p {
     text-align: center;
+  }
+
+  .frame-container .frame {
+    animation: none;
+    transition: 1s;
+  }
+
+  .frame-container .frame:hover {
+    border-radius: 50%;
   }
 }

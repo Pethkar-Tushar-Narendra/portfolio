@@ -3,7 +3,6 @@ import { FaInfinity } from 'react-icons/fa';
 import { IoMdContact } from 'react-icons/io';
 import './home.css';
 import { useNavigate } from 'react-router-dom';
-import { RiContactsBookFill } from 'react-icons/ri';
 
 const Home = () => {
   const navigate = useNavigate('/about');
@@ -27,10 +26,6 @@ const Home = () => {
           <h2>About Me</h2>
           <IoMdContact className="home-icon2" />
         </a>
-        {/* <a className="home-button" onClick={() => navigate('/about')}>
-          <h2>Contact Me</h2>
-          <RiContactsBookFill className="home-icon2" />
-        </a> */}
       </div>
     </div>
   );
