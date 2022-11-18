@@ -6,7 +6,6 @@
   --text-key: rgb(128, 128, 128);
   cursor: default;
   user-select: none;
-  scroll-behavior: smooth;
 }
 main {
   min-height: 80vh;
