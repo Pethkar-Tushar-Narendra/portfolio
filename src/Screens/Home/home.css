@@ -1,11 +1,10 @@
 .home-container {
   position: relative;
-  min-height: 100vh;
+  max-height: 100vh;
   display: flex;
   flex-direction: row;
   flex-basis: 100%;
   gap: 20px;
-  padding: 20px;
 }
 .home-container .frame-container {
   position: relative;
@@ -97,11 +96,11 @@
   .home-container .frame-container {
     width: 100%;
     aspect-ratio: 1;
-    height: 40vh;
+    height: 47vh;
   }
   .home-container .info-container {
     width: 100%;
-    height: 50vh;
+    height: 40vh;
     padding: 0;
   }
   .home-container .info-container {
