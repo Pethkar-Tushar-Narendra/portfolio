@@ -154,6 +154,18 @@ const info = {
   ],
   edu: [
     {
+      time: '2022',
+      class: 'PG-DAC',
+      name: 'CDAC-Bangalore',
+      marks: 'Percentage: 66%',
+    },
+    {
+      time: '2016-2020',
+      class: 'Graduation Production Engineering',
+      name: 'K.K.Wagh Institute Of Engineering And Research, Nashik',
+      marks: 'CGPA: 6.62',
+    },
+    {
       time: '2013-2014',
       class: 'Class X',
       name: 'Maratha High School, Nashik',
@@ -164,18 +176,6 @@ const info = {
       class: 'Class XII',
       name: 'K.T.H.M. Collage Gangapur Road, Nashik',
       marks: 'Percentage: 59%',
-    },
-    {
-      time: '2016-2020',
-      class: 'Graduation Production Engineering',
-      name: 'K.K.Wagh Institute Of Engineering And Research, Nashik',
-      marks: 'CGPA: 6.62',
-    },
-    {
-      time: '2022',
-      class: 'PG-DAC',
-      name: 'CDAC-Bangalore',
-      marks: 'Percentage: 66%',
     },
   ],
 };
