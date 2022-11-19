@@ -6,18 +6,20 @@ import Navbar from './Screens/Navbar/Navbar';
 import About from './Screens/About/About';
 import Portfolio from './Screens/Portfoilio/Portfolio';
 import ContactMe from './Screens/ContactMe/ContactMe';
+import ScrollToTop from './ScrollToTop';
 
 function App() {
   return (
     <>
       <Particle />
       <BrowserRouter>
+        <ScrollToTop />
         <main>
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/portfolio" element={<Portfolio />} />
-            <Route path="/contactMe" element={<ContactMe />} />
+            <Route path="/" exact element={<Home />} />
+            <Route path="/about" exact element={<About />} />
+            <Route path="/portfolio" exact element={<Portfolio />} />
+            <Route path="/contactMe" exact element={<ContactMe />} />
           </Routes>
         </main>
         <Navbar />

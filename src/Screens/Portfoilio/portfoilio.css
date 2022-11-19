@@ -55,7 +55,7 @@
 .project-container .card-container .card .lines {
   inset: 0;
   position: absolute;
-  background-color: transparent;
+  background-color: black;
   overflow: hidden;
   border-radius: 15px;
 }
@@ -66,9 +66,9 @@
   left: 50%;
   background: linear-gradient(
     transparent,
-    var(--highlighter),
-    var(--highlighter),
-    var(--highlighter),
+    var(--text-color),
+    var(--text-color),
+    var(--text-color),
     transparent
   );
   height: 200px;
@@ -88,9 +88,9 @@
 .project-container .card-container .card .lines::after {
   content: '';
   position: absolute;
-  inset: 5px;
+  inset: 3px;
   background-color: #333;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 
 .project-container .card-container .card .imgBox {
@@ -104,6 +104,7 @@
   transition: 0.5s;
   overflow: hidden;
   border-radius: 15px;
+  background-color: black;
 }
 
 .project-container .card-container .card .imgBox::before {
@@ -111,9 +112,9 @@
   content: '';
   background: linear-gradient(
     transparent,
-    var(--text-color),
-    var(--text-color),
-    var(--text-color),
+    var(--highlighter),
+    var(--highlighter),
+    var(--highlighter),
     transparent
   );
   top: 50%;
