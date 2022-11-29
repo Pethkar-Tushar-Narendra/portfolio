@@ -2,8 +2,9 @@ import ProjectImg1 from './ProjectImg/Industrial robot image.png';
 import ProjectImg2 from './ProjectImg/Mern Webapplication.png';
 import ProjectImg3 from './ProjectImg/Resume Website.png';
 import ProjectImg4 from './ProjectImg/robotic arm prototype.png';
-import ProjectImg5 from './ProjectImg/portfolio screenshot.jpg';
+import ProjectImg5 from './ProjectImg/portfolio.png';
 import ProjectImg6 from './ProjectImg/portfolio template.jpg';
+import ProjectImg7 from './ProjectImg/cdacUniversity.png';
 import { ImHtmlFive } from 'react-icons/im';
 import { TbBrandJavascript } from 'react-icons/tb';
 import { IoLogoCss3 } from 'react-icons/io';
@@ -45,6 +46,13 @@ const info = {
         'Bootstrap',
       ],
       link: 'https://e-commerce-shopping-app-tushar.herokuapp.com/',
+    },
+    {
+      image: ProjectImg7,
+      title: 'CDAC University',
+      time: 'Nov 2022',
+      technologies: ['React.js', 'JavaScript', 'HTML', 'CSS'],
+      link: 'https://cdac-university-tushar.netlify.app/',
     },
     {
       image: ProjectImg3,

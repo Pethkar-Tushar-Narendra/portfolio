@@ -37,10 +37,12 @@
   position: relative;
   height: 250px;
   aspect-ratio: 1;
-  background-image: url('../../../public/Passport_Photograph.jpg');
+  background-image: url('../../tryImage/f5d5dabd-5522-40ad-8b32-e9108aa63d3b.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: rgb(237, 233, 227);
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
-  background-size: contain;
 }
 .contact-container .contact-frame .contact-info {
   position: relative;
@@ -94,6 +96,7 @@
 }
 .contact-container .contact-frame .contact-info .col2 .icon {
   width: 30px;
+  cursor: pointer;
   height: 30px;
   border-radius: 5px;
   aspect-ratio: 1;
@@ -127,7 +130,6 @@
   width: 45%;
 }
 .contact-container .form-container form input {
-  background-color: var(--text-key);
   gap: 20px;
   width: 50%;
   height: 50px;
@@ -135,10 +137,14 @@
   padding: 30px;
   color: var(--text-color);
   font-size: 20px;
-  cursor: pointer;
+  background: transparent;
+}
+.contact-container .form-container form input::placeholder,
+.contact-container .form-container form textarea::placeholder {
+  color: var(--text-color);
 }
 .contact-container .form-container form textarea {
-  background-color: var(--text-key);
+  background: transparent;
   font-size: 20px;
   font-size: 20px;
   gap: 20px;
@@ -146,7 +152,6 @@
   border-radius: 33px;
   padding: 30px;
   color: var(--text-color);
-  cursor: pointer;
 }
 .contact-container .form-container form button {
   font-weight: 800;

@@ -50,6 +50,7 @@
 
 .project-container .card-container .card:hover {
   height: 500px;
+  cursor: default;
 }
 
 .project-container .card-container .card .lines {

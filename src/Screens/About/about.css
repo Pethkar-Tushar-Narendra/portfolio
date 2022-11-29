@@ -41,10 +41,12 @@
   position: relative;
   height: 250px;
   aspect-ratio: 1;
-  background-image: url('../../../public/Passport_Photograph.jpg');
+  background-image: url('../../tryImage/f5d5dabd-5522-40ad-8b32-e9108aa63d3b.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: rgb(237, 233, 227);
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
-  background-size: contain;
 }
 .about-container .about-frame .about-info {
   width: 60%;

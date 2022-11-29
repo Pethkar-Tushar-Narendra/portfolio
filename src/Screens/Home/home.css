@@ -19,13 +19,15 @@
   position: relative;
   height: 65%;
   aspect-ratio: 1;
-  background-image: url('../../../public/Passport_Photograph.jpg');
-  background-color: rgb(237, 233, 227);
-  box-shadow: inset 20px 20px 20px rgba(0, 0, 0, 0.05),
-    25px 35px 20px rgba(0, 0, 0, 0.05), 25px 30px 30px rgba(0, 0, 0, 0.05),
-    inset -20px -20px 25px rgba(255, 255, 255, 0.9);
+  background-image: url('../../tryImage/f5d5dabd-5522-40ad-8b32-e9108aa63d3b.webp');
+  background-color: black;
+  box-shadow: inset 20px 20px 20px rgba(0, 0, 0, 0.5),
+    25px 35px 20px rgba(0, 0, 0, 0.5), 25px 30px 30px rgba(0, 0, 0, 0.5),
+    inset -20px -20px 25px rgba(0, 0, 0, 0.9);
   border-radius: 30% 70% 57% 43% / 35% 33% 67% 65%;
-  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   animation-name: animation;
   animation-timing-function: ease-in-out;
   animation-duration: 3s;
