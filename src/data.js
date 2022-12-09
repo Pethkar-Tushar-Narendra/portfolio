@@ -5,6 +5,7 @@ import ProjectImg4 from './ProjectImg/robotic arm prototype.png';
 import ProjectImg5 from './ProjectImg/portfolio.png';
 import ProjectImg6 from './ProjectImg/portfolio template.jpg';
 import ProjectImg7 from './ProjectImg/cdacUniversity.png';
+import ProjectImg8 from './ProjectImg/Estatery.png';
 import { ImHtmlFive } from 'react-icons/im';
 import { TbBrandJavascript } from 'react-icons/tb';
 import { IoLogoCss3 } from 'react-icons/io';
@@ -33,6 +34,13 @@ const info = {
     email: 'pethkartusharnarendra@gmail.com',
   },
   projects: [
+    {
+      image: ProjectImg8,
+      title: 'Estatery WebApp',
+      time: 'Dec 2022',
+      technologies: ['React.js', 'JavaScript', 'HTML', 'CSS'],
+      link: 'https://estatery-tushar.vercel.app/',
+    },
     {
       image: ProjectImg2,
       title: 'E-Com Web Application',
