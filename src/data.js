@@ -6,6 +6,7 @@ import ProjectImg5 from './ProjectImg/portfolio.png';
 import ProjectImg6 from './ProjectImg/portfolio template.jpg';
 import ProjectImg7 from './ProjectImg/cdacUniversity.png';
 import ProjectImg8 from './ProjectImg/Estatery.png';
+import ProjectImg9 from './ProjectImg/Searching.png';
 import { ImHtmlFive } from 'react-icons/im';
 import { TbBrandJavascript } from 'react-icons/tb';
 import { IoLogoCss3 } from 'react-icons/io';
@@ -61,6 +62,13 @@ const info = {
       time: 'Nov 2022',
       technologies: ['React.js', 'JavaScript', 'HTML', 'CSS'],
       link: 'https://cdac-university-tushar.netlify.app/',
+    },
+    {
+      image: ProjectImg9,
+      title: 'Table Sorting Algorithm',
+      time: 'Dec 2022',
+      technologies: ['React.js', 'JavaScript', 'HTML', 'CSS'],
+      link: 'https://chef-kart-assignment.vercel.app/',
     },
     {
       image: ProjectImg3,
