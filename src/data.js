@@ -58,7 +58,7 @@ const info = {
       link: 'https://e-commerse-app-tushar.onrender.com/',
     },
     {
-      image: ProjectImg9,
+      image: ProjectImg10,
       title: 'Data Visualization Web Application',
       time: 'Dec 2022',
       technologies: [
