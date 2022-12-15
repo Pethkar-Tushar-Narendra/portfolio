@@ -54,7 +54,7 @@ const info = {
         'Web Tokens',
         'Bootstrap',
       ],
-      link: 'https://e-commerce-shopping-app-tushar.herokuapp.com/',
+      link: 'https://e-commerse-app-tushar.onrender.com/',
     },
     {
       image: ProjectImg7,
