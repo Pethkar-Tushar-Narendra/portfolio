@@ -7,6 +7,7 @@ import ProjectImg6 from './ProjectImg/portfolio template.jpg';
 import ProjectImg7 from './ProjectImg/cdacUniversity.png';
 import ProjectImg8 from './ProjectImg/Estatery.png';
 import ProjectImg9 from './ProjectImg/Searching.png';
+import ProjectImg10 from './ProjectImg/DataVisualization.png';
 import { ImHtmlFive } from 'react-icons/im';
 import { TbBrandJavascript } from 'react-icons/tb';
 import { IoLogoCss3 } from 'react-icons/io';
@@ -55,6 +56,20 @@ const info = {
         'Bootstrap',
       ],
       link: 'https://e-commerse-app-tushar.onrender.com/',
+    },
+    {
+      image: ProjectImg9,
+      title: 'Data Visualization Web Application',
+      time: 'Dec 2022',
+      technologies: [
+        'React.js',
+        'Node.JS',
+        'Express',
+        'MongoDB',
+        'Web Tokens',
+        'Bootstrap',
+      ],
+      link: 'https://data-visualization-ccul.vercel.app/',
     },
     {
       image: ProjectImg7,
