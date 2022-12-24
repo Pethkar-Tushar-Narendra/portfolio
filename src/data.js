@@ -8,6 +8,7 @@ import ProjectImg7 from './ProjectImg/cdacUniversity.png';
 import ProjectImg8 from './ProjectImg/Estatery.png';
 import ProjectImg9 from './ProjectImg/Searching.png';
 import ProjectImg10 from './ProjectImg/DataVisualization.png';
+import ProjectImg11 from './ProjectImg/Email Sender App.jpg';
 import { ImHtmlFive } from 'react-icons/im';
 import { TbBrandJavascript } from 'react-icons/tb';
 import { IoLogoCss3 } from 'react-icons/io';
@@ -70,6 +71,21 @@ const info = {
         'Bootstrap',
       ],
       link: 'https://data-visualization-ccul.vercel.app/',
+    },
+    {
+      image: ProjectImg11,
+      title: 'Email Sending App',
+      time: 'Dec 2022',
+      technologies: [
+        'React.js',
+        'Node.JS',
+        'Express',
+        'MongoDB',
+        'JavaScript',
+        'HTML',
+        'CSS',
+      ],
+      link: 'https://mailing-service-app.onrender.com/',
     },
     {
       image: ProjectImg7,
