@@ -38,14 +38,16 @@ const info = {
   },
   projects: [
     {
-      image: ProjectImg8,
+      image:
+        'https://res.cloudinary.com/dyrkmzn7t/image/upload/v1673878088/Estatery_eopvlj.png',
       title: 'Estatery WebApp',
       time: 'Dec 2022',
       technologies: ['React.js', 'JavaScript', 'HTML', 'CSS'],
       link: 'https://estatery-tushar.vercel.app/',
     },
     {
-      image: ProjectImg2,
+      image:
+        'https://res.cloudinary.com/dyrkmzn7t/image/upload/v1673878088/Mern_Webapplication_uridgx.png',
       title: 'E-Com Web Application',
       time: 'Sept 2022',
       technologies: [
@@ -59,7 +61,8 @@ const info = {
       link: 'https://e-commerse-app-tushar.onrender.com/',
     },
     {
-      image: ProjectImg10,
+      image:
+        'https://res.cloudinary.com/dyrkmzn7t/image/upload/v1673878087/DataVisualization_b9m1tt.png',
       title: 'Data Visualization Web Application',
       time: 'Dec 2022',
       technologies: [
@@ -73,7 +76,8 @@ const info = {
       link: 'https://data-visualization-ccul.vercel.app/',
     },
     {
-      image: ProjectImg11,
+      image:
+        'https://res.cloudinary.com/dyrkmzn7t/image/upload/v1673878087/Email_Sender_App_hiv4td.jpg',
       title: 'Email Sending App',
       time: 'Dec 2022',
       technologies: [
@@ -88,42 +92,48 @@ const info = {
       link: 'https://mailing-service-app.onrender.com/',
     },
     {
-      image: ProjectImg7,
+      image:
+        'https://res.cloudinary.com/dyrkmzn7t/image/upload/v1673878088/cdacUniversity_eehink.png',
       title: 'CDAC University',
       time: 'Nov 2022',
       technologies: ['React.js', 'JavaScript', 'HTML', 'CSS'],
       link: 'https://cdac-university-tushar.netlify.app/',
     },
     {
-      image: ProjectImg9,
+      image:
+        'https://res.cloudinary.com/dyrkmzn7t/image/upload/v1673878089/Searching_dqipwe.png',
       title: 'Table Sorting Algorithm',
       time: 'Dec 2022',
       technologies: ['React.js', 'JavaScript', 'HTML', 'CSS'],
       link: 'https://chef-kart-assignment.vercel.app/',
     },
     {
-      image: ProjectImg3,
+      image:
+        'https://res.cloudinary.com/dyrkmzn7t/image/upload/v1673878089/Resume_Website_ddcsty.png',
       title: 'Resume CV WebPage',
       time: 'Oct 2022',
       technologies: ['React.js', 'JavaScript', 'HTML', 'CSS'],
       link: 'https://tushar-pethkar-resume.netlify.app/',
     },
     {
-      image: ProjectImg6,
+      image:
+        'https://res.cloudinary.com/dyrkmzn7t/image/upload/v1673878088/portfolio_template_mrozh2.jpg',
       title: 'Portfolio Template',
       time: 'Nov 2022',
       technologies: ['React.js', 'JavaScript', 'HTML', 'CSS'],
       link: 'https://tushar-pethkar-portfolio1.netlify.app/',
     },
     {
-      image: ProjectImg5,
+      image:
+        'https://res.cloudinary.com/dyrkmzn7t/image/upload/v1673878089/portfolio_yq65re.png',
       title: 'Portfolio Web Application',
       time: 'Nov 2022',
       technologies: ['React.js', 'JavaScript', 'HTML', 'CSS'],
       link: '/',
     },
     {
-      image: ProjectImg1,
+      image:
+        'https://res.cloudinary.com/dyrkmzn7t/image/upload/v1673878182/Industrial_robot_image_ig4zwe.png',
       title: 'Optimization Process',
       time: 'Feb 2020',
       technologies: [
@@ -135,7 +145,8 @@ const info = {
       link: 'https://drive.google.com/drive/folders/147sV7cpY4e-Luu_5zO64RNkPW8pPIDkw',
     },
     {
-      image: ProjectImg4,
+      image:
+        'https://res.cloudinary.com/dyrkmzn7t/image/upload/v1673878089/robotic_arm_prototype_so0vq0.png',
       title: '6 Axes Robotic Arm',
       time: 'April 2020',
       technologies: [
