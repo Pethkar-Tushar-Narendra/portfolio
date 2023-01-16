@@ -34,10 +34,13 @@ const Portfolio = () => {
                   <h2>Live Demo</h2>
                   <ImEarth className="button-icon" />
                 </a>
-                <a className="button2" href={e.link} target="_blank">
-                  <h2>GitHub</h2>
-                  <BsGithub className="button-icon" />
-                </a>
+                {e.link_github && (
+                  <a className="button2" href={e.link_github} target="_blank">
+                    <h2>GitHub</h2>
+                    <BsGithub className="button-icon" />
+                  </a>
+                )}
+
                 <h2 className="time">{e.time}</h2>
               </div>
             </div>

@@ -1,14 +1,3 @@
-import ProjectImg1 from './ProjectImg/Industrial robot image.png';
-import ProjectImg2 from './ProjectImg/Mern Webapplication.png';
-import ProjectImg3 from './ProjectImg/Resume Website.png';
-import ProjectImg4 from './ProjectImg/robotic arm prototype.png';
-import ProjectImg5 from './ProjectImg/portfolio.png';
-import ProjectImg6 from './ProjectImg/portfolio template.jpg';
-import ProjectImg7 from './ProjectImg/cdacUniversity.png';
-import ProjectImg8 from './ProjectImg/Estatery.png';
-import ProjectImg9 from './ProjectImg/Searching.png';
-import ProjectImg10 from './ProjectImg/DataVisualization.png';
-import ProjectImg11 from './ProjectImg/Email Sender App.jpg';
 import { ImHtmlFive } from 'react-icons/im';
 import { TbBrandJavascript } from 'react-icons/tb';
 import { IoLogoCss3 } from 'react-icons/io';
@@ -44,6 +33,8 @@ const info = {
       time: 'Dec 2022',
       technologies: ['React.js', 'JavaScript', 'HTML', 'CSS'],
       link: 'https://estatery-tushar.vercel.app/',
+      link_github:
+        'https://github.com/Pethkar-Tushar-Narendra/Frontend-Assignment-Internship',
     },
     {
       image:
@@ -59,6 +50,7 @@ const info = {
         'Bootstrap',
       ],
       link: 'https://e-commerse-app-tushar.onrender.com/',
+      link_github: 'https://github.com/Pethkar-Tushar-Narendra/HappyBaskests',
     },
     {
       image:
@@ -74,6 +66,8 @@ const info = {
         'Bootstrap',
       ],
       link: 'https://data-visualization-ccul.vercel.app/',
+      link_github:
+        'https://github.com/Pethkar-Tushar-Narendra/Data-Visualization',
     },
     {
       image:
@@ -90,6 +84,8 @@ const info = {
         'CSS',
       ],
       link: 'https://mailing-service-app.onrender.com/',
+      link_github:
+        'https://github.com/Pethkar-Tushar-Narendra/NodeMailer-project',
     },
     {
       image:
@@ -98,6 +94,7 @@ const info = {
       time: 'Nov 2022',
       technologies: ['React.js', 'JavaScript', 'HTML', 'CSS'],
       link: 'https://cdac-university-tushar.netlify.app/',
+      link_github: 'https://github.com/Pethkar-Tushar-Narendra/Cdac-University',
     },
     {
       image:
@@ -106,6 +103,8 @@ const info = {
       time: 'Dec 2022',
       technologies: ['React.js', 'JavaScript', 'HTML', 'CSS'],
       link: 'https://chef-kart-assignment.vercel.app/',
+      link_github:
+        'https://github.com/Pethkar-Tushar-Narendra/ChefKart-Assignment',
     },
     {
       image:
@@ -130,6 +129,7 @@ const info = {
       time: 'Nov 2022',
       technologies: ['React.js', 'JavaScript', 'HTML', 'CSS'],
       link: '/',
+      link_github: 'https://github.com/Pethkar-Tushar-Narendra/portfolio',
     },
     {
       image:
