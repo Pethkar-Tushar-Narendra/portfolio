@@ -17,29 +17,6 @@ const Portfolio = () => {
           <h1 className="title2">Projects</h1>
         </div>
         <div className="card-container">
-          {/* <div className="card"> */}
-          {/* <div className="lines"></div>
-            <div
-              className="imgBox"
-              style={{
-                backgroundImage: `url(${projects[0].image})`,
-              }}
-            >
-              <div className="transparency"></div>
-            </div>
-            <div className="content">
-              <h2 className="title">{projects[0].title}</h2>
-              
-              <a className="button" href={projects[0].link} target="_blank">
-                <h2>Live Demo</h2>
-                <ImEarth className="button-icon" />
-              </a>
-              <a className="button2" href={projects[0].link} target="_blank">
-                <h2>GitHub</h2>
-                <BsGithub className="button-icon" />
-              </a>
-            </div>
-          </div> */}
           {projects.map((e) => (
             <div className="card">
               <div className="lines"></div>

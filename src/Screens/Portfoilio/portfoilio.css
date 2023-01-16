@@ -35,13 +35,12 @@
 }
 
 .project-container .card-container .card {
-  margin: 45px 0;
+  /* margin: 45px 0; */
   position: relative;
   width: 350px;
-  height: 300px;
+  height: 220px;
   background-color: transparent;
   transition: 0.5s;
-  /* cursor: pointer; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -55,7 +54,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 1000;
-  border-radius: 15px;
+  /* border-radius: 15px; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -63,7 +62,7 @@
 .project-container .card-container .card .imgBox .transparency {
   width: 100%;
   height: 100%;
-  border-radius: 15px;
+  /* border-radius: 15px; */
   background-color: rgba(36, 34, 34, 0.249);
 }
 .project-container .card-container .card .lines {
@@ -71,7 +70,7 @@
   position: absolute;
   background-color: black;
   overflow: hidden;
-  border-radius: 15px;
+  /* border-radius: 15px; */
 }
 .project-container .card-container .card .lines::before {
   content: '';
@@ -104,7 +103,7 @@
   position: absolute;
   inset: 1px;
   background-color: #333;
-  border-radius: 15px;
+  /* border-radius: 15px; */
 }
 .project-container .card-container .card .content {
   position: absolute;
@@ -113,7 +112,7 @@
   background-color: rgba(220, 204, 204, 0.607);
   width: calc(100%);
   height: calc(100%);
-  border-radius: 15px;
+  /* border-radius: 15px; */
   top: -100%;
   transition: 1s;
   padding: 0.5rem;
