@@ -39,7 +39,7 @@ const info = {
         'Web Tokens',
         'Bootstrap',
       ],
-      link: 'https://whats-app-clone-5btb.onrender.com/',
+      link: 'https://whats-app-clone-5btb.onrender.com/web',
       link_github:
         'https://github.com/Pethkar-Tushar-Narendra/clone-whatsAppClone',
     },
