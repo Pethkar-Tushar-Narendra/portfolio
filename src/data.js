@@ -28,6 +28,23 @@ const info = {
   projects: [
     {
       image:
+        'https://res.cloudinary.com/dyrkmzn7t/image/upload/v1678771895/WhatsAppClone_fv7ptn.png',
+      title: 'Whats App Clone',
+      time: 'Mar 2023',
+      technologies: [
+        'React.js',
+        'Node.JS',
+        'Express',
+        'MongoDB',
+        'Web Tokens',
+        'Bootstrap',
+      ],
+      link: 'https://whats-app-clone-5btb.onrender.com/',
+      link_github:
+        'https://github.com/Pethkar-Tushar-Narendra/clone-whatsAppClone',
+    },
+    {
+      image:
         'https://res.cloudinary.com/dyrkmzn7t/image/upload/v1673878088/Estatery_eopvlj.png',
       title: 'Estatery WebApp',
       time: 'Dec 2022',
